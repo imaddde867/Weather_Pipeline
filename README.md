@@ -91,6 +91,9 @@ Weather_ETL_Pipeline/
 |-- requirements.txt     # Python dependencies
 |-- README.md            # Project documentation
 ```
+## Database Structure
+
+![alt text](https://github.com/imaddde867/Weather_Pipeline/blob/main/Database_Preview.png)
 
 ## Technologies Used
 - **Languages:** Python
