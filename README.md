@@ -27,7 +27,7 @@ Ensure the following tools and libraries are installed:
 ### Step 1: Clone the Repository
 Clone this project to your local machine:
 ```bash
-git clone <repository-url>
+git clone https://github.com/imaddde867/Weather_Pipeline.git
 cd Weather_ETL_Pipeline
 ```
 
