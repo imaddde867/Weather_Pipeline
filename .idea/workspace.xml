@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f32be6b-9498-47d2-af22-4e786fdead93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web_platform/weather_platform/home/templates/home/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_platform/weather_platform/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather/templates/weather/weather_data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather/templates/weather/weather_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_platform/weather_platform/weather_platform/wsgi.py" afterDir="false" />
-    </list>
+    <list default="true" id="2f32be6b-9498-47d2-af22-4e786fdead93" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +79,7 @@
       <recent name="$PROJECT_DIR$/web_platform/weather_platform/weather" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_platform" />
       <recent name="$PROJECT_DIR$/web_platform/weather_platform/home" />
       <recent name="$PROJECT_DIR$/web_platform/weather_platform/weather" />
       <recent name="$PROJECT_DIR$/web_platform/weather_platform/weather_platform" />
@@ -128,7 +107,7 @@
       <workItem from="1734566674420" duration="1066000" />
       <workItem from="1734569004581" duration="61000" />
       <workItem from="1734569074762" duration="428000" />
-      <workItem from="1734569565512" duration="6114000" />
+      <workItem from="1734569565512" duration="6477000" />
     </task>
     <servers />
   </component>
