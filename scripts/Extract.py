@@ -5,7 +5,7 @@ def fetch_weather_data(api_key, location, date1, date2):
     url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{location}/{date1}/{date2}"
     params = {
         "key": api_key,
-        "unitGroup": "us",
+        "unitGroup": "metric",
         "contentType": "json",
     }
     response = requests.get(url, params=params)

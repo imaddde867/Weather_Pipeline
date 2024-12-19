@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f32be6b-9498-47d2-af22-4e786fdead93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/Extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Weather_Pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Weather_Pipeline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Extract.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734559064419</updated>
       <workItem from="1734559065686" duration="1838000" />
-      <workItem from="1734564284502" duration="1605000" />
+      <workItem from="1734564284502" duration="2013000" />
     </task>
     <servers />
   </component>
@@ -123,6 +120,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Weather_pipeline$Extract.coverage" NAME="Extract Coverage Results" MODIFIED="1734566070093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Weather_pipeline$Extract.coverage" NAME="Extract Coverage Results" MODIFIED="1734566359321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
