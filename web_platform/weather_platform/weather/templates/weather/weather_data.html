@@ -1,0 +1,49 @@
+<!-- weather_platform/weather/templates/weather/weather_data.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Date and Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for weather_item in weather %}
+                <tr>
+                    <td>{{ weather_item.location }}</td>
+                    <td>{{ weather_item.temperature }}°C</td>
+                    <td>{{ weather_item.humidity }}%</td>
+                    <td>{{ weather_item.date_time }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

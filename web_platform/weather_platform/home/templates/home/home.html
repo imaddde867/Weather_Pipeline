@@ -1,0 +1,64 @@
+<!-- weather_platform/home/templates/home/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Weather Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .content {
+            margin: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Weather Data Project</h1>
+    </header>
+
+    <div class="content">
+        <h2>Project Overview</h2>
+        <p>This project is a comprehensive system to collect, process, and display weather data. The system is built using a combination of Django, an ETL pipeline, and various data processing techniques.</p>
+
+        <h3>API</h3>
+        <p>The system pulls real-time weather data from a weather API, which is then stored in a PostgreSQL database for further processing and analysis.</p>
+
+        <h3>ETL Pipeline</h3>
+        <p>The ETL (Extract, Transform, Load) pipeline is responsible for fetching, cleaning, and loading data into the database. This ensures that only relevant and accurate data is stored for use in the system.</p>
+
+        <h3>Dashboard</h3>
+        <p>Our weather dashboard provides an intuitive interface to visualize weather data, making it easy to track current conditions, forecasts, and other important metrics.</p>
+
+        <a href="{% url 'weather_data' %}">
+            <button class="button">Go to Weather App</button>
+        </a>
+    </div>
+
+</body>
+</html>
