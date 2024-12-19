@@ -4,18 +4,18 @@ from datetime import datetime, timedelta
 
 def get_date_range():
     """
-    Generate a date range for the past 2 days.
+    Generate a date range for the past 7 days.
     Returns:
         tuple: Start and end date in 'YYYY-MM-DD' format.
     """
     end_date = datetime.now()
-    start_date = end_date - timedelta(days=2)
+    start_date = end_date - timedelta(days=7)
     return start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d')
 
 def fetch_weather_data(api_key, location, date1, date2):
     """
     Fetch weather data from the Visual Crossing API.
-    Args:
+    Args:å
         api_key (str): API key for authentication.
         location (str): Location for which to fetch the weather.
         date1 (str): Start date in 'YYYY-MM-DD' format.
@@ -53,12 +53,20 @@ def store_weather_data_to_db(data, conn):
         print("No 'currentConditions' found in the API response. Skipping insertion.")
         return
 
-    try:
-        # Fix 'datetime' to ensure it has a valid timestamp format
-        raw_datetime = current_conditions.get("datetime")
-        if len(raw_datetime) == 8:  # Check if it's time-only (HH:MM:SS)
-            raw_datetime = f"{data.get('days')[0].get('datetime')} {raw_datetime}"  # Prepend date
+    # Get the datetime and handle if it's time-only (HH:MM:SS)
+    raw_datetime = current_conditions.get("datetime")
+    if not raw_datetime:
+        print("No 'datetime' found in current conditions. Skipping insertion.")
+        return
 
+    if len(raw_datetime) == 8:  # If it's time-only (HH:MM:SS)
+        day_date = data.get('days')[0].get('datetime')  # Get the date from the first day in the response
+        if not day_date:
+            print("No 'datetime' found for the first day. Skipping insertion.")
+            return
+        raw_datetime = f"{day_date} {raw_datetime}"  # Combine date and time to make a full timestamp
+
+    try:
         # Insert data into the 'current_conditions' table
         cursor.execute("""
             INSERT INTO current_conditions (
@@ -92,6 +100,7 @@ def store_weather_data_to_db(data, conn):
         conn.rollback()
     finally:
         cursor.close()
+
 
 # Main ETL Process
 if __name__ == "__main__":
