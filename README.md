@@ -335,10 +335,10 @@ weather_platform/
 
 ## Technologies Used
 
-Django: A Python web framework for building the web interface.
-PostgreSQL: A relational database for storing weather data.
-Visual Crossing API: A weather API for fetching real-time weather data.
-Python: Programming language used for backend and ETL pipeline.
-requests: Python library for making HTTP requests to the Visual Crossing API.
-pandas: Python library for data manipulation and analysis.
-numpy: Python library for numerical computations
+- Django: A Python web framework for building the web interface.
+- PostgreSQL: A relational database for storing weather data.
+- Visual Crossing API: A weather API for fetching real-time weather data.
+- Python: Programming language used for backend and ETL pipeline.
+- requests: Python library for making HTTP requests to the Visual Crossing API.
+- pandas: Python library for data manipulation and analysis.
+- numpy: Python library for numerical computations
