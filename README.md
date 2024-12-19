@@ -1,5 +1,3 @@
-Here is the complete `README.md` content, formatted in markdown:
-
 # Weather Data Platform
 
 This project involves building a weather data platform that collects weather data from the **Visual Crossing** API, processes it using an ETL pipeline, and presents it through a Django web application. The platform allows users to view real-time weather data and explore the ETL process used to collect and transform the data.
@@ -337,11 +335,10 @@ weather_platform/
 
 ## Technologies Used
 
-- **Django**: A Python web framework for building the web interface.
-- **PostgreSQL**: A relational database for storing weather data.
-- **Visual Crossing API**: A weather API for fetching real-time weather data.
-- **Python**: Programming language used for backend and ETL pipeline.
-- **requests**: Python library for making HTTP requests to the Visual Crossing API.
-```
-
-This complete `README.md` file provides an overview, details of the ETL process, database schema, web interface setup, and instructions on running the project locally.
+Django: A Python web framework for building the web interface.
+PostgreSQL: A relational database for storing weather data.
+Visual Crossing API: A weather API for fetching real-time weather data.
+Python: Programming language used for backend and ETL pipeline.
+requests: Python library for making HTTP requests to the Visual Crossing API.
+pandas: Python library for data manipulation and analysis.
+numpy: Python library for numerical computations
