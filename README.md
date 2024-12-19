@@ -8,6 +8,8 @@ This project involves building an Extract, Transform, Load (ETL) pipeline to fet
 - Pipeline scheduling and automation
 - Working with databases
 
+![Alt text](https://github.com/imaddde867/Weather_Pipeline/blob/main/web_platform/preview.png)
+
 ## Features
 - **Data Extraction:** Fetch weather data using a public API.
 - **Data Transformation:** Cleanse and structure the data for analysis.
